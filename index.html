@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+		<title>Портфолио</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header-row">
+					<img src="./img/photo.jpg" srcset="./img/photo@2x.jpg 2x" alt="photo" class="header-img" />
+
+					<div class="header-desc">
+						<h1 class="header-title">Полина Маринина</h1>
+						<p class="header-text">фрилансер, веб-разработчик, создание сайтов</p>
+						<div class="header-btns">
+							<a href="#portfolio" class="btn">Портфолио</a>
+							<a href="#contacts" class="btn-outline">Контакты</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<video class="header-video" autoplay muted loop>
+				<source type="video/mp4" src="./videos/5473799-hd_1366_720_25fps.mp4">
+			</video>
+		</header>
+
+		<main class="main">
+			<section class="portfolio container" id="portfolio">
+				<h2 class="portfolio-title">Портфолио</h2>
+
+				<div class="projects">
+
+					<article class="project">
+						<a href="./panto.html" target="_blank">
+							<img
+								src="./portfolio/project-01.jpg"
+								srcset="./portfolio/project-01@2x.jpg 2x"
+								alt="Сайт магазина мебели"
+								class="portfolio-img"
+							/>
+						</a>
+						<h3 class="project-title"><a href="./panto.html" target="_blank">Сайт магазина мебели</a></h3>
+					</article>
+
+					<article class="project">
+						<a href="./GoTravel.html" target="_blank">
+							<img
+								src="./portfolio/project-02.jpg"
+								srcset="./portfolio/project-02@2x.jpg 2x"
+								alt="Сайт туристического агентства"
+								class="portfolio-img"
+							/>
+						</a>
+						<h3 class="project-title"><a href="./GoTravel.html" target="_blank">Сайт туристического агентства</a></h3>
+					</article>
+
+					<article class="project">
+						<a href="./loftHouse.html" target="_blank">
+							<img
+								src="./portfolio/project-03.jpg"
+								srcset="./portfolio/project-03@2x.jpg 2x"
+								alt="Сайт жилого комплекса"
+								class="portfolio-img"
+							/>
+						</a>
+						<h3 class="project-title"><a href="./loftHouse.html" target="_blank">Сайт жилого комплекса</a></h3>
+					</article>
+				</div>
+			</section>
+
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<h2 class="contacts-title">Контакты</h2>
+
+					<div class="messangers">
+						<a target="_blank" class="messanger" href="https://t.me/Maripoli"
+							><img src="./icons/telegram.svg" alt="Telegram" />Написать в&nbsp;Telegram</a
+						>
+
+						<a target="_blank" class="messanger" href="mailto:marinini.po83@gmail.com"
+							><img src="./icons/gmail.svg" alt="Gmail" />Отправить на&nbsp;Почту</a
+						>
+
+						<a target="_blank" class="messanger" href="https://vk.com/maripolina"
+							><img src="./icons/vk.svg" alt="Вконтакте" />Связаться Вконтакте</a
+						>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<p>&copy;&nbsp;Маринина Полина HTML&nbsp;верстальщик, создание сайтов Ташкент</p>
+					<p><a href="https://webcamedy.ru/" target="_blank">💻 Макет сверстан на&nbsp;курсе в&nbsp;ВебКадеми</a></p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
